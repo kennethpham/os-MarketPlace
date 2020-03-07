@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
 import axios from "axios";
+import { Carousel } from "react-bootstrap/Carousel";
 
 const EachProject = props => {
     return (
@@ -56,7 +57,7 @@ class Project extends React.Component {
                     {this.showProject(this.state.projects)}
                 </div>
                 <div className="button">
-                        <Button variant="primary" href="/form">Share Project</Button>
+                        <Button variant="primary" href="/form" >Share Project</Button>
                     </div>
             </div>
         )
